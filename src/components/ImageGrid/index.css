@@ -1,0 +1,35 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image {
+    width: calc(20% - 10px); /* Adjust based on the number of images per row */
+    margin-bottom: 20px; /* Add margin between images */
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 1200px) {
+    .image {
+      width: calc(25% - 10px); /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .image {
+      width: calc(33.33% - 10px); /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .image {
+      width: calc(50% - 10px); /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .image {
+      width: calc(100% - 10px); /* Full width on smaller screens */
+    }
+  }

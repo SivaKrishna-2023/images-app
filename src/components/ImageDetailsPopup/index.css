@@ -1,0 +1,43 @@
+.image-details-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-details-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+    position: relative; /* Required for absolute positioning of close button */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .image-details-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .details h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .details p {
+    margin-bottom: 5px;
+  }
