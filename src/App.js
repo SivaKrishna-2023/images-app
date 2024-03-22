@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Import your CSS file for styling
+import './App.css'; 
 import SearchBar from './components/SearchBar';
 import ImageGrid from './components/ImageGrid';
 import LoadingIndicator from './components/LoadingIndicator';
